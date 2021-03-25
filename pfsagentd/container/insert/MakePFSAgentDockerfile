@@ -51,7 +51,7 @@ then
         echo "FUSEVolumeName:     <e.g. CommonVolume>"
         echo "FUSEMountPointPath: <e.g. AgentMountPoint>"
         echo "PlugInEnvValue:     <e.g. {\"AuthURL\":\"http://localhost:8080/auth/v1.0\"\\u002C"
-        echo "                           \"AuthUser\":\"test:tester\"\\u002C"
+        echo "                           \"AuthUser\":\"test2:tester2\"\\u002C"
         echo "                           \"AuthKey\":\"testing\"\\u002C"
         echo "                           \"Account\":\"AUTH_test\"}>"
         echo "HTTPServerTCPPort:  <e.g. 9090>"

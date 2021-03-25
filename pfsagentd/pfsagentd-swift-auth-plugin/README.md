@@ -12,7 +12,7 @@ varialble specified by [Agent]PlugInEnvName (optionally set to the value of
 ```
 {
     "AuthURL"  : "<e.g. https://<domain-name>/auth/v1.0>",
-    "AuthUser" : "<e.g. test:tester>",
+    "AuthUser" : "<e.g. test2:tester2>",
     "AuthKey"  : "<e.g. testing>",
     "Account"  : "<e.g. AUTH_test>"
 }

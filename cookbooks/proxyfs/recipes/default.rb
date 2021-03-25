@@ -85,7 +85,7 @@ ruby_block "update_profile_and_bashrc" do
     file.insert_line_if_no_match(/ls -liha/, "alias li='ls -liha'")
     file.insert_line_if_no_match(/statmnt/, "alias statmnt='stat /mnt/*'")
     file.insert_line_if_no_match(/ST_AUTH/, "export ST_AUTH=http://localhost:8080/auth/v1.0")
-    file.insert_line_if_no_match(/ST_USER/, "export ST_USER=test:tester")
+    file.insert_line_if_no_match(/ST_USER/, "export ST_USER=test2:tester2")
     file.insert_line_if_no_match(/ST_KEY/, "export ST_KEY=testing")
     file.write_file
 
@@ -120,7 +120,7 @@ ruby_block "update_profile_and_bashrc" do
     file.insert_line_if_no_match(/ls -liha/, "alias li='ls -liha'")
     file.insert_line_if_no_match(/statmnt/, "alias statmnt='stat /mnt/*'")
     file.insert_line_if_no_match(/ST_AUTH/, "export ST_AUTH=http://localhost:8080/auth/v1.0")
-    file.insert_line_if_no_match(/ST_USER/, "export ST_USER=test:tester")
+    file.insert_line_if_no_match(/ST_USER/, "export ST_USER=test2:tester2")
     file.insert_line_if_no_match(/ST_KEY/, "export ST_KEY=testing")
     file.write_file
 
@@ -610,19 +610,19 @@ s3api =
 EOF
     cat > ~swift/.aws/credentials << EOF
 [default]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 
 [nfspfs]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 
 [smbpfs]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 
 [pfsapfs]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 EOF
     chown -R swift:swift ~swift/.aws
@@ -678,19 +678,19 @@ s3api =
 EOF
     cat > ~root/.aws/credentials << EOF
 [default]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 
 [nfspfs]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 
 [smbpfs]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 
 [pfsapfs]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 EOF
     chown -R root:root ~root/.aws

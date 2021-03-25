@@ -158,7 +158,7 @@ end
 
 {
   "ST_AUTH" => "http://#{node['hostname']}:8080/auth/v1.0",
-  "ST_USER" => "test:tester",
+  "ST_USER" => "test2:tester2",
   "ST_KEY" => "testing",
 }.each do |var, value|
   execute "swift-env-#{var}" do

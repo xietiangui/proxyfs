@@ -13,5 +13,5 @@ PFSAgentImage:      pfsagent-build:latest
 [SampleVolume]
 FUSEVolumeName:     CommonVolume
 FUSEMountPointPath: AgentMountPoint
-PlugInEnvValue:     {"AuthURL":"http://172.17.0.2:8080/auth/v1.0"\u002C"AuthUser":"test:tester"\u002C"AuthKey":"testing"\u002C"Account":"AUTH_test"}
+PlugInEnvValue:     {"AuthURL":"http://172.17.0.2:8080/auth/v1.0"\u002C"AuthUser":"test2:tester2"\u002C"AuthKey":"testing"\u002C"Account":"AUTH_test"}
 HTTPServerTCPPort:  9090

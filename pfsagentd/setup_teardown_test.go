@@ -22,7 +22,7 @@ import (
 const (
 	testAccountName             = "AUTH_test"
 	testAuthKey                 = "testing"
-	testAuthUser                = "test:tester"
+	testAuthUser                = "test2:tester2"
 	testDaemonStartPollInterval = 1 * time.Second
 	testProxyFSDaemonHTTPPort   = "15347"
 	testProxyFSDaemonIPAddr     = "127.0.0.1"

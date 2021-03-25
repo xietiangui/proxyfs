@@ -291,7 +291,7 @@ cd python-swiftclient
 python setup.py develop
 
 echo "export ST_AUTH=http://localhost:8080/auth/v1.0" >> ~vagrant/.bash_profile
-echo "export ST_USER=test:tester" >> ~vagrant/.bash_profile
+echo "export ST_USER=test2:tester2" >> ~vagrant/.bash_profile
 echo "export ST_KEY=testing" >> ~vagrant/.bash_profile
 
 # Now we can actually install Swift from source
@@ -377,7 +377,7 @@ s3api =
 EOF
 cat > ~vagrant/.aws/credentials << EOF
 [default]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 EOF
 chown -R vagrant:vagrant ~vagrant/.aws

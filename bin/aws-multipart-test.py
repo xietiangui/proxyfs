@@ -19,7 +19,7 @@
 endpoint = awscli_plugin_endpoint
 
 [profile default]
-aws_access_key_id = test:tester
+aws_access_key_id = test2:tester2
 aws_secret_access_key = testing
 s3 =
      endpoint_url = http://127.0.0.1:8080
